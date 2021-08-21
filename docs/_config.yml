@@ -2,6 +2,5 @@ defaults:
   - scope:
       path: "" # an empty string here means all files in the project
     values:
-      title: "PDFfer v1.0"
-
+      title: "Spring Boot PDFfer"
 theme: jekyll-theme-tactile
