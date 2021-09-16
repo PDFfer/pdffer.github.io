@@ -10,11 +10,12 @@ If you are following my Spring Boot course on PluralSight
 This page explains how to set up the course exercise files in Eclipse with Spring Tools 4 and in IntelliJ
   Ultimate so that you have everything ready to follow along during lectures and demos.  
 
-The exercise files contain configuration files for two build tools: Maven and Gradle.
+The exercise files in the course provide configuration for two build tools: Maven and Gradle.
 
-The projects contain build files for both Maven and Gradle, but personally I have used Maven with Spring ToolSuite 4 for Eclipse and
-  Gradle with IntelliJ Ultimate 2021.2. It really does not matter, though
-  they should all work in either IDE and with different versions too.
+Personally, I have used Maven with Eclipse and
+  Gradle with IntelliJ Ultimate 2021.2. However, it really does not matter,
+  they should all work in either IDE and with different versions too, so feel
+  free to use the build tool you want with the IDE you want!
 
 Eclipse with Maven
 ------------------
