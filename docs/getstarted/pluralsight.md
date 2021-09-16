@@ -1,25 +1,82 @@
 ## PluralSight Exercise Files
 
-If you are following the Spring Boot course on PluralSight (Spring Boot:
-  Effective Development,　Configuration and Deployment), it is important that
-  you try as much as possible to follow the lectures and demos while keeping
-  the corresponding code open in your IDE, ready for you to play with and
-  experiment. This is very important because I do not know of any other to
-  become a good programmer than by programming.
+If you are following my Spring Boot course on PluralSight
+  [Spring Boot: Effective Development, Configuration and Deployment](https://pluralsight.pxf.io/federico-mestrone),
+  it is important that you try as much as possible to follow the lectures 
+  and demos while keeping the corresponding code open in your IDE, ready for
+  you to play with and experiment. This is very important because I do not know of any other 
+  way to become a good programmer than by actually programming.
 
-This page explains how to set up Eclipse with Spring Tools 4 and IntelliJ
-  Ultimate so that you have everything ready to follow along during lectures
-  and demos.  
+This page explains how to set up the course exercise files in Eclipse with Spring Tools 4 and in IntelliJ
+  Ultimate so that you have everything ready to follow along during lectures and demos.  
 
-The exercise files contain configuration files for two build tools: Maven and
-Gradle
+The exercise files contain configuration files for two build tools: Maven and Gradle.
 
-### Maven
+The projects contain build files for both Maven and Gradle, but personally I have used Maven with Spring ToolSuite 4 for Eclipse and
+  Gradle with IntelliJ Ultimate 2021.2. It really does not matter, though
+  they should all work in either IDE and with different versions too.
 
-#### Eclipse with Spring Studio 4
-#### IntelliJ Ultimate
+Eclipse with Maven
+------------------
 
-### Gradle
+In order to use the Maven files with Eclipse STS 4, follow these simple steps:
 
-#### Eclipse with Spring Studio 4
-#### IntelliJ Ultimate
+1. Create a new workspace
+
+![New Workspace](./images/pluralsight/eclipse1.png)
+
+2. Open the import wizard to add projects from folder or archive
+
+![Import Wizard](./images/pluralsight/eclipse2.png)
+
+3. Click on the _Archive..._ button and select the ZIP file for the module
+   you are about to study. This will present a choice of 4 possible projects.
+   Only choose the ones that can be imported as _Maven_ projects.
+
+![Project Selection](./images/pluralsight/eclipse3.png)
+
+4. You projects will be imported and built. As soon as all background jobs
+   are completed, you are ready to start following the lectures and demos in
+   the PluralSight module!
+
+![Projects Ready!](./images/pluralsight/eclipse4.png)
+
+IntelliJ with Gradle
+--------------------
+
+The Gradle projects are all contained inside of a root Gradle project
+represented by the top-level `settings.gradle` file.
+
+In order to use the Gradle files with IntelliJ, first of all extract the ZIP
+file for the module you are about to study where you want the project to be.
+
+Then simply follow these steps
+
+1. Create a new _Project from Existing Sources..._
+
+![New Project](./images/pluralsight/intellij1.png)
+
+2. Select the `settings.gradle` file from the unzipped course files
+
+![Choose Gradle File](./images/pluralsight/intellij2.png)
+
+3. If it asks, you can trust this project
+
+![Trust Project](./images/pluralsight/intellij3.png)
+
+4. If you want to keep the project you were working on before open, then
+   choose _New Window_, otherwise choose _This Window_ and your previous project
+   will be closed to make room for this new one
+
+![New Project](./images/pluralsight/intellij4.png)
+
+5. If you get this little pop-up in the bottom-right corner, choose to _Use Services_
+   so your boot application will be listed in the _Services_ view
+
+![Use Services](./images/pluralsight/intellij5.png)
+
+6. You projects will be imported and built. As soon as all background jobs
+   are completed, you are ready to start following the lectures and demos in
+   the PluralSight module!
+
+![Projects Ready](./images/pluralsight/intellij6.png)
