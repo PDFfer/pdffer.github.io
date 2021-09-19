@@ -1,6 +1,6 @@
 ---
 ---
-## What is PDFfer?
+# What is PDFfer?
 
 **PDFfer** is a Spring Boot library that adds PDF generation capabilities to 
 your Spring Boot applications, in a simple effective manner. It is
@@ -18,7 +18,7 @@ properties
 
 If you're curious about why I created PDFfer, [click here](about.md)!
 
-### PDFfer on PluralSight
+## PDFfer on PluralSight
 
 If you have access to PluralSight, find out about [my Spring Boot course that uses 
 PDFfer](pluralsight.md) to teach some advanced Spring Boot concepts.
@@ -26,7 +26,7 @@ PDFfer](pluralsight.md) to teach some advanced Spring Boot concepts.
 If you don't have access, you can get a trial subscription [from this 
 page](https://pluralsight.pxf.io/ps-trial-fm).
 
-### PDF Templates
+## PDF Templates
 
 PDFfer uses a templating system in order to generate PDFs and it has a registry
 of templates that anyone can contribute to.
@@ -38,7 +38,7 @@ templates available in the `nekosoft-itext-templates`.
 
 [More on creating your own templates...](templates.md)
 
-### Getting Started
+## Getting Started
 
 Just add a dependency on the pdffer-starter library to your application. This
 will add everything you need through auto-configuration, so make sure that
