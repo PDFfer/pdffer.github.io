@@ -1,5 +1,3 @@
----
----
 ## {{ site.title }}
 
 Coming Soon...

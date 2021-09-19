@@ -1,6 +1,3 @@
----
----
-## {{ site.title }}
 
 **PDFfer** is a Spring Boot library that adds PDF generation capabilities to 
 your Spring Boot applications, in a simple effective manner. It is
