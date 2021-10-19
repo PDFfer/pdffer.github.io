@@ -1,3 +1,8 @@
+---
+layout: default
+title: PluralSight Getting Started
+permalink: /getstarted/pluralsight
+---
 ## PluralSight Exercise Files
 
 If you are following my Spring Boot course on PluralSight

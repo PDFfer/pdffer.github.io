@@ -1,4 +1,7 @@
 ---
+layout: default
+title: Home
+permalink: /
 ---
 # What is PDFfer?
 
@@ -6,7 +9,7 @@
 your Spring Boot applications, in a simple effective manner. It is
 
 Pluggable
-: You just drop a dependency to it in your application and you can start using it
+: You just drop a dependency to it in your application, and you can start using it
 
 Extensible
 : It is easy to add more templates to it, meaning you can create all sorts of
@@ -18,13 +21,16 @@ properties
 
 If you're curious about why I created PDFfer, [click here](about.md)!
 
-## PDFfer on PluralSight
+## PDFfer on Pluralsight
 
-If you have access to PluralSight, find out about [my Spring Boot course that uses 
-PDFfer](pluralsight.md) to teach some advanced Spring Boot concepts.
+If you have access to Pluralsight, you can watch [my Spring Boot course that uses 
+PDFfer](https://app.pluralsight.com/library/courses/spring-boot-development-configuration-deployment/) to teach
+some advanced Spring Boot concepts.
 
 If you don't have access, you can get a trial subscription [from this 
 page](https://pluralsight.pxf.io/ps-trial-fm).
+
+[More on the Pluralsight registry...](pluralsight.md)
 
 ## PDF Templates
 
@@ -40,13 +46,13 @@ templates available in the `nekosoft-itext-templates`.
 
 ## Getting Started
 
-Just add a dependency on the pdffer-starter library to your application. This
+Just add a dependency on the `pdffer-starter` library to your application. This
 will add everything you need through auto-configuration, so make sure that
 Spring autoconfiguration is enabled in your project.
 
 Gradle builds should include this dependency
 ```groovy
-implementation 'org.nekosoft.pdffer:pdffer-core:1.0.0'
+implementation 'org.nekosoft.pdffer:pdffer-starter:1.0.0'
 ```
 
 Maven builds should include this dependency
@@ -76,9 +82,10 @@ Adding the sample template library with Maven
 </dependency>
 ```
 
-In the simplest scenario, you autowire the `PdfferProducerBean` into your service
+In the most common scenarios, all you have to do is autowire the `PdfferProducerBean` into 
+your service or web controller
 beans and invoke the `generatePdfDocument` method to get the contents of
-the PDF document as an array of bytes. The method takes the name of a template and
+the PDF document as an array of bytes. The method takes the name of a template,
 the group it belongs to, and the payload of the document - the payload is the data
 that a template needs in order to generate the PDF, so as to fill in the layout
 structure with dynamic data.
