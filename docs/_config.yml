@@ -41,10 +41,10 @@ sidebar:
     - url: /about
       name: About This Project
     - url: /pluralsight
-      name: Pluralsight Version
+      name: Pluralsight Edition
       links:
         - url: /getstarted/pluralsight
-          name: PluralSight Getting Started
+          name: Pluralsight Getting Started
     - url: /producer
       name: The Producer Bean
     - url: /registry

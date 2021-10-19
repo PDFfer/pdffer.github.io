@@ -1,12 +1,12 @@
 ---
 layout: default
-title: PluralSight Getting Started
+title: Pluralsight Getting Started
 permalink: /getstarted/pluralsight
 ---
-## PluralSight Exercise Files
+## Pluralsight Exercise Files
 
-If you are following my Spring Boot course on PluralSight
-  [Spring Boot: Effective Development, Configuration and Deployment](https://pluralsight.pxf.io/federico-mestrone),
+If you are following my Spring Boot course on Pluralsight
+  [Spring Boot: Effective Development, Configuration and Deployment](https://app.pluralsight.com/library/courses/spring-boot-development-configuration-deployment/),
   it is important that you try as much as possible to follow the lectures 
   and demos while keeping the corresponding code open in your IDE, ready for
   you to play with and experiment. This is very important because I do not know of any other 
@@ -43,7 +43,7 @@ In order to use the Maven files with Eclipse STS 4, follow these simple steps:
 
 4. You projects will be imported and built. As soon as all background jobs
    are completed, you are ready to start following the lectures and demos in
-   the PluralSight module!
+   the Pluralsight module!
 
 ![Projects Ready!](./images/pluralsight/eclipse4.png)
 
@@ -83,6 +83,6 @@ Then simply follow these steps
 
 6. You projects will be imported and built. As soon as all background jobs
    are completed, you are ready to start following the lectures and demos in
-   the PluralSight module!
+   the Pluralsight module!
 
 ![Projects Ready](./images/pluralsight/intellij6.png)

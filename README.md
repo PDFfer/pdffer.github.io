@@ -10,8 +10,8 @@ The contents directory, where the wesite markdown resides, is
 
 `docs/`
 
-## PluralSight Course Instructions
+## Pluralsight Course Instructions
 
-The website also provides information about the PluralSight course on Spring Boot
+The website also provides information about the Pluralsight course on Spring Boot
 that uses a simplified version of PDFfer as an example to teach some advanced Spring
 Boot concepts.
