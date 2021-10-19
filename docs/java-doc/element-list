@@ -1,0 +1,10 @@
+org.nekosoft.pdffer
+org.nekosoft.pdffer.actuator
+org.nekosoft.pdffer.exception
+org.nekosoft.pdffer.mail
+org.nekosoft.pdffer.props
+org.nekosoft.pdffer.registry
+org.nekosoft.pdffer.template
+org.nekosoft.pdffer.web
+org.nekosoft.PDFferTemplates
+org.nekosoft.PDFferTemplates.invoice

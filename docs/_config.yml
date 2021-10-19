@@ -52,7 +52,8 @@ sidebar:
       links:
         - url: /templates
           name: PDF Templates
-
+    - url: /java-doc
+      name: JavaDoc Reference
 
 # Build settings
 theme: jekyll-theme-cayman
