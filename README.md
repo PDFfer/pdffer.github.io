@@ -6,7 +6,7 @@ This is the repo of the [pdffer.nekosoft.org](https://pdffer.nekosoft.org) websi
 
 It is a Github Pages repository.
 
-The contents directory, where the wesite markdown resides, is
+The contents directory, where the website markdown resides, is
 
 `docs/`
 
