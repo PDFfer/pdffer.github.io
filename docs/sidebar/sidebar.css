@@ -24,6 +24,10 @@
     text-decoration: underline;
 }
 
+#sidebar nav .nav-link span:hover {
+    text-decoration: none;
+}
+
 #sidebar nav .nav-link.font-weight-bolder {
     font-weight: bolder;
 }

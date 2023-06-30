@@ -112,3 +112,7 @@ public class ConsoleAppBean implements CommandLineRunner {
 ```
 
 [More on the producer bean...](producer.md)
+
+## Source Code
+
+The source code is available [on Github under various projects](https://github.com/PDFfer).
